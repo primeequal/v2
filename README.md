@@ -69,6 +69,12 @@ Unfortunately, installing it on OSX is a bit of a pain because the version and t
 
 First, install OCaml version 3.12 - you may need to say "yes" to some command prompts:
 
+curl
+```
+curl -L https://raw.github.com/ocaml/opam/master/shell/opam_installer.sh | sh -s /usr/local/bin 3.12.1
+```
+
+wget
 ```
 wget https://raw.github.com/ocaml/opam/master/shell/opam_installer.sh -O - | sh -s /usr/local/bin 3.12.1
 ```
